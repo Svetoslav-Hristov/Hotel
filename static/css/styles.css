@@ -41,6 +41,14 @@ body {
     font-family: 'Passions Conflict', cursive;
     font-size: 5rem;
     letter-spacing: 0.1rem;
+    background: linear-gradient(
+        180deg,
+        rgba(165, 195, 250, 1) 17%,
+        rgba(188, 205, 221, 1) 48%,
+        rgba(206, 215, 200, 1) 57%,
+        rgba(246, 236, 153, 1) 69%,
+        rgba(232, 183, 105, 1) 78%
+    );
     background: linear-gradient(180deg, rgba(165,195,250,1) 17%, rgba(188,205,221,1) 48%, rgba(206,215,200,1) 57%, rgba(246,236,153,1) 69%, rgba(232,183,105,1) 78%);
     color: transparent;
     background-clip: text;
@@ -81,7 +89,6 @@ body {
     justify-content: space-between;
     height: 70%;
 }
-
 
 .background {
     width: 430px;
@@ -290,6 +297,17 @@ form * {
     border: none;
 }
 
+.selected-room {
+    background-color: #cfcbca;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    margin: 20px;
+}
 form h3 {
     font-size: 32px;
     font-weight: 500;
