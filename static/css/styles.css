@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 
-
 *,
 *:before,
 *:after {
@@ -9,7 +8,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -23,13 +21,11 @@ body {
     background-color: #080710;
 }
 
-
 #wrapper {
     margin: 2.35rem 0 0;
     display: flex;
     justify-content: center;
 }
-
 
 #welcome {
     margin: 0;
@@ -55,14 +51,12 @@ body {
     -webkit-background-clip: text;
 }
 
-
 .home-container {
     margin: 0 auto 4px 0;
     height: 1rem;
     display: flex;
     text-align: center;
 }
-
 
 .info {
     display: flex;
@@ -80,7 +74,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(242, 238, 213);
 }
-
 
 .site-content {
     display: flex;
@@ -117,7 +110,6 @@ body {
     right: -30px;
     bottom: -80px;
 }
-
 
 form {
     height: 520px;
@@ -171,7 +163,6 @@ input {
 ::placeholder {
     color: #e5e5e5;
 }
-
 
 button {
     margin-top: 30px;
@@ -309,23 +300,9 @@ form * {
     margin: 20px;
 }
 
-.offers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 77%;
-}
 
-.offer-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 9px;
-    cursor: pointer;
-    background: transparent;
-    box-shadow: 1px 1px 5px 3px white;
-}
+
+
 
 .offer-card:nth-child(3) img {
     margin-right: 38px;

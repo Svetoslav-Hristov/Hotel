@@ -40,6 +40,7 @@ document.querySelector('#confirm-reservation').addEventListener('click', (e) => 
 function showThanksPage(e) {
     e.preventDefault();
     changeContent('thank-you-content');
+}
 document.querySelector('#search-back-btn').addEventListener('click', (e) => fillSearchForm(e));
 
 function fillSearchForm(e) {
@@ -79,7 +80,7 @@ function findRoom(e) {
 
 }
 
-changeContent('search-form-content');
+//changeContent('search-form-content');
 document.querySelector('#search-form-button').addEventListener('click', (e) => searchFormData(e));
 
 function searchFormData(e) {
